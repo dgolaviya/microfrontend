@@ -9,7 +9,8 @@ on:
       - "packages/container/**"
 
 defaults:
-  working-directory: "packages/container"
+  run:
+    working-directory: "packages/container"
 jobs:
   build:
     runs-on: "ubuntu-latest"
